@@ -1,0 +1,32 @@
+
+/* Agregar imagen de fondo con Css index.html */
+body{
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*Cards */
+.card-deck {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+} 
+ footer{
+    margin-top: 50px;
+    
+} 
+/* Centrar slide misionvision*/
+#container_slide{
+    display: flex;
+    justify-content: center;
+   
+}
+#img_slide{
+    width: 800px;
+}
+#card_C{
+    width: 50%;
+    justify-content: center;
+}
+
